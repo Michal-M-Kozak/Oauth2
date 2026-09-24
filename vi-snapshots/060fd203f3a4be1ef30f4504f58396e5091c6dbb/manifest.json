@@ -1,0 +1,122 @@
+[
+  {
+    "html": "by-blob/0b/0b503740b14914ac73a0b0282406d4e050161228.html",
+    "vi_name": "Authorize",
+    "group": "source",
+    "vi_rel": "source/Oauth2/Authorize.vi",
+    "blob": "0b503740b14914ac73a0b0282406d4e050161228",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/b1/b12e2766e2ff05476fc6601d170a23673a6fe308.html",
+    "vi_name": "build auth URI",
+    "group": "source",
+    "vi_rel": "source/Oauth2/build auth URI.vi",
+    "blob": "b12e2766e2ff05476fc6601d170a23673a6fe308",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/9d/9df2af5baf744b64d28d59c1cefa35857ef67aea.html",
+    "vi_name": "build token URI",
+    "group": "source",
+    "vi_rel": "source/Oauth2/build token URI.vi",
+    "blob": "9df2af5baf744b64d28d59c1cefa35857ef67aea",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/f1/f1d0ad4fef13d28a4099363aa1b8cad250d784f1.html",
+    "vi_name": "close client handle",
+    "group": "source",
+    "vi_rel": "source/Oauth2/close client handle.vi",
+    "blob": "f1d0ad4fef13d28a4099363aa1b8cad250d784f1",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/14/142c0e471459d3af364db772efc807d96c11ffe8.html",
+    "vi_name": "Configure OAuth",
+    "group": "source",
+    "vi_rel": "source/Oauth2/Configure OAuth.vi",
+    "blob": "142c0e471459d3af364db772efc807d96c11ffe8",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/5f/5f2194cfed41ae87b712fb1571268ad0b69047e1.html",
+    "vi_name": "initialize redirection",
+    "group": "source",
+    "vi_rel": "source/Oauth2/initialize redirection.vi",
+    "blob": "5f2194cfed41ae87b712fb1571268ad0b69047e1",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/ce/ce0d49c66d9d881c75b55b2273c4d4e2d4dfc38c.html",
+    "vi_name": "Inject OAuth Client Type",
+    "group": "source",
+    "vi_rel": "source/Oauth2/Inject OAuth Client Type.vi",
+    "blob": "ce0d49c66d9d881c75b55b2273c4d4e2d4dfc38c",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/20/204523a8c70a5dcf3fc3b3c208a49cea88bf2d6a.html",
+    "vi_name": "open client handle",
+    "group": "source",
+    "vi_rel": "source/Oauth2/open client handle.vi",
+    "blob": "204523a8c70a5dcf3fc3b3c208a49cea88bf2d6a",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/b7/b7fb65b23f619ef708e09fd7c376a7215ee1aad9.html",
+    "vi_name": "request auth code",
+    "group": "source",
+    "vi_rel": "source/Oauth2/request auth code.vi",
+    "blob": "b7fb65b23f619ef708e09fd7c376a7215ee1aad9",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/91/9138965f7ee91b4a8eb19d25c1ac70eea2d8c741.html",
+    "vi_name": "retrieve token",
+    "group": "source",
+    "vi_rel": "source/Oauth2/retrieve token.vi",
+    "blob": "9138965f7ee91b4a8eb19d25c1ac70eea2d8c741",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/2f/2f357859210a512c2432159c3edb3e5016753043.html",
+    "vi_name": "Close Client Handle",
+    "group": "source",
+    "vi_rel": "source/OauthClient/Close Client Handle.vi",
+    "blob": "2f357859210a512c2432159c3edb3e5016753043",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/64/64387dacb1396a95fa36de908cec04454e9c8c08.html",
+    "vi_name": "Open Client Handle",
+    "group": "source",
+    "vi_rel": "source/OauthClient/Open Client Handle.vi",
+    "blob": "64387dacb1396a95fa36de908cec04454e9c8c08",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/f9/f95c2206c478c88a5a6ea58b486a7792a2309574.html",
+    "vi_name": "Query Client for Token",
+    "group": "source",
+    "vi_rel": "source/OauthClient/Query Client for Token.vi",
+    "blob": "f95c2206c478c88a5a6ea58b486a7792a2309574",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/75/75ee2f5f42f552f21c820bcf6bb1e8b65f49adb4.html",
+    "vi_name": "Read client handle",
+    "group": "source",
+    "vi_rel": "source/OauthClient/Read client handle.vi",
+    "blob": "75ee2f5f42f552f21c820bcf6bb1e8b65f49adb4",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  },
+  {
+    "html": "by-blob/23/23aa344dfc8a6c9bbaf140deaab62c35430967b4.html",
+    "vi_name": "Write client handle",
+    "group": "source",
+    "vi_rel": "source/OauthClient/Write client handle.vi",
+    "blob": "23aa344dfc8a6c9bbaf140deaab62c35430967b4",
+    "commit_sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb"
+  }
+]

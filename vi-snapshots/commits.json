@@ -1,0 +1,154 @@
+[
+  {
+    "sha": "1fa55fbb5bcbc2328d68d312a356238c7593f165",
+    "short": "1fa55fb",
+    "message": "Add LabVIEW CI pipeline",
+    "author": "Michal Kozák",
+    "date": "2026-09-23T21:26:58+02:00",
+    "vi_count": 91
+  },
+  {
+    "sha": "e45df33649c949ee63a47f429806670efa44a163",
+    "short": "e45df33",
+    "message": "- Added support for reverse proxy (when localhost is not supported by Oauth server) - Added a hook to inject a TLS-suppo",
+    "author": "Francois Normandin",
+    "date": "2022-04-30T13:57:59-07:00",
+    "vi_count": 91
+  },
+  {
+    "sha": "12f08f5a994e668f3f0b4f338c95f73565d2eeb1",
+    "short": "12f08f5",
+    "message": "Oauth for Harvest tested Oauth for Quickbooks pseudo-working but Quickbooks does not support localhost for production ap",
+    "author": "Francois Normandin",
+    "date": "2022-04-24T20:04:11-07:00",
+    "vi_count": 91
+  },
+  {
+    "sha": "3c20fe26c6aad481d7928488db88b2ad6c29f8d7",
+    "short": "3c20fe2",
+    "message": "Support for Harvest Oauth2 workflow",
+    "author": "Francois Normandin",
+    "date": "2022-04-08T07:48:29-07:00",
+    "vi_count": 85
+  },
+  {
+    "sha": "9a28f98601a389ba0d85b6f7ae7b902629770d6f",
+    "short": "9a28f98",
+    "message": "Modified the dependencies to be free of MQTT references (now with Connection lib)",
+    "author": "Francois Normandin",
+    "date": "2021-04-05T18:11:06-04:00",
+    "vi_count": 80
+  },
+  {
+    "sha": "9f0f8b47bd69d77426026c6d66de65d40b41bcd8",
+    "short": "9f0f8b4",
+    "message": "PKCE Workflow (Plain challenge) is built-in. Can be deactivated, but will be used by default.",
+    "author": "Francois Normandin",
+    "date": "2021-04-05T15:39:40-04:00",
+    "vi_count": 80
+  },
+  {
+    "sha": "a7e8d1d42dacbeefad33cb5a622ad88f4519f4a3",
+    "short": "a7e8d1d",
+    "message": "Adding PKCE workflow -- WIP",
+    "author": "Francois Normandin",
+    "date": "2021-04-05T13:19:00-04:00",
+    "vi_count": 79
+  },
+  {
+    "sha": "e4dd35589f76d3e7080d4ea114897a8f3ddaef80",
+    "short": "e4dd355",
+    "message": "Added license + moved examples into source folder for installation in vilib created the build specs",
+    "author": "Francois Normandin",
+    "date": "2021-04-05T10:31:11-04:00",
+    "vi_count": 77
+  },
+  {
+    "sha": "35766b4228aeb7a3285127055e60e9c190961485",
+    "short": "35766b4",
+    "message": "Addition of Oauth2.Google class for googleapi support",
+    "author": "Francois Normandin",
+    "date": "2021-04-05T09:19:56-04:00",
+    "vi_count": 77
+  },
+  {
+    "sha": "80cd4780b72e6f23f0d2e3a367d7ee3a513bae92",
+    "short": "80cd478",
+    "message": "Updated Oauth2 class with Refresh Token workflow Added an interactive Gitlab OAuth example with instructions for first-t",
+    "author": "Francois Normandin",
+    "date": "2021-04-04T17:37:11-04:00",
+    "vi_count": 70
+  },
+  {
+    "sha": "aedba7d190b0a94d0f0f54f78926e93fa3abd570",
+    "short": "aedba7d",
+    "message": "Demos for a few Oauth2 providers: Gitlab, Github, LinkedIn, Slack",
+    "author": "Francois Normandin",
+    "date": "2021-02-14T19:07:28-05:00",
+    "vi_count": 68
+  },
+  {
+    "sha": "d35f602f0a11562ebacd0f9075ba4b81a455e316",
+    "short": "d35f602",
+    "message": "- Added HTTP Set Authorization Header (Bearer + Access Token) in Oauth2 for HTTP Client API - Added a support class for ",
+    "author": "Francois Normandin",
+    "date": "2021-02-14T19:06:39-05:00",
+    "vi_count": 64
+  },
+  {
+    "sha": "e13eeff440da807d9dfef8b85b40997b9a955d10",
+    "short": "e13eeff",
+    "message": "moved folders to reflect correct name of HTTP1.1 standard",
+    "author": "Francois Normandin",
+    "date": "2021-01-25T12:59:25-05:00",
+    "vi_count": 60
+  },
+  {
+    "sha": "22fb61e7f55a774dd43df06d7c2dfaaf5804feb4",
+    "short": "22fb61e",
+    "message": "- Added parsing of HTTP 1.1 responses - processing incoming query parameters as part of the auth code response - automat",
+    "author": "Francois Normandin",
+    "date": "2021-01-25T12:40:05-05:00",
+    "vi_count": 60
+  },
+  {
+    "sha": "04092b86d083b790cf60041aa59ce76b667e736a",
+    "short": "04092b8",
+    "message": "Additional Endpoints -- override allows to append more endpoints to the Auth request Ex: GitHub's allow-signup and login",
+    "author": "Francois Normandin",
+    "date": "2021-01-24T21:04:20-05:00",
+    "vi_count": 57
+  },
+  {
+    "sha": "4209fb647385138104ea12ef8a1c962af82ac64a",
+    "short": "4209fb6",
+    "message": "- added support for property nodes and easier access to token - added exportable list of token, filterable to remove cli",
+    "author": "Francois Normandin",
+    "date": "2021-01-24T20:12:47-05:00",
+    "vi_count": 53
+  },
+  {
+    "sha": "57bfb6e4664427bfdbd9b5edc1cf1ba87738a2a6",
+    "short": "57bfb6e",
+    "message": "- formalized the decoding of response (json and plain text) - slack overrides the decoding for its own elements (team_id",
+    "author": "Francois Normandin",
+    "date": "2021-01-24T18:05:35-05:00",
+    "vi_count": 46
+  },
+  {
+    "sha": "47addbb95b09477d167f48a18a7c06dd617f78e2",
+    "short": "47addbb",
+    "message": "improved modularity and tested with Gitlab, Github and Slack",
+    "author": "Francois Normandin",
+    "date": "2021-01-24T12:33:53-05:00",
+    "vi_count": 36
+  },
+  {
+    "sha": "060fd203f3a4be1ef30f4504f58396e5091c6dbb",
+    "short": "060fd20",
+    "message": "initial OAuth2.0 commit. - add parsing of JSON token and store into token object - replace mqtt connection classes with ",
+    "author": "Francois Normandin",
+    "date": "2021-01-23T18:06:56-05:00",
+    "vi_count": 15
+  }
+]
