@@ -1,0 +1,18 @@
+=== ExecuteBuildSpec 'GitLab Example' [EXE] target 'My Computer' in Oauth2.0.lvproj ===
+LabVIEWCLI started logging in file:  C:\Users\ContainerAdministrator\AppData\Local\Temp\lvtemporary_631244.log
+Using LabVIEW: "C:\Program Files\National Instruments\LabVIEW 2026\LabVIEW.exe"
+LabVIEW launched successfully.
+Connection established with LabVIEW at port number 3363.
+
+Operation output: 
+Generated files are:
+C:\Oauth2.0\builds\GitLab Example\GitLab Example.exe
+
+C:\Oauth2.0\builds\GitLab Example\GitLab Example.aliases
+
+C:\Oauth2.0\builds\GitLab Example\GitLab Example.ini
+
+
+ExecuteBuildSpec operation succeeded.
+
+
