@@ -1,0 +1,15 @@
+{
+  "platform": "windows",
+  "files": [
+    {
+      "file": "tests/Main Test.vi",
+      "type": "added",
+      "report": "tests-Main_Test.vi/index.html"
+    },
+    {
+      "file": "tests/Modules/SubTest.vi",
+      "type": "added",
+      "report": "tests-Modules-SubTest.vi/index.html"
+    }
+  ]
+}
