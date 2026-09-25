@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "Michal-M-Kozak/Oauth2",
-  "sha": "1fa55fbb5bcbc2328d68d312a356238c7593f165",
+  "sha": "00a898fcfe1ec150fea29be43f3fd456854cbcd0",
   "revisions": [
+    {
+      "sha": "00a898fcfe1ec150fea29be43f3fd456854cbcd0",
+      "short": "00a898f",
+      "message": "add first unit tests",
+      "author": "Michal Koz\u00e1k",
+      "date": "2026-09-25T15:17:34Z",
+      "project": true,
+      "dep_only": false
+    },
     {
       "sha": "1fa55fbb5bcbc2328d68d312a356238c7593f165",
       "short": "1fa55fb",
