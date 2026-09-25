@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "Michal-M-Kozak/Oauth2",
-  "sha": "00a898fcfe1ec150fea29be43f3fd456854cbcd0",
+  "sha": "390a7b04725baf3239881d7320089bb29cb2acca",
   "revisions": [
+    {
+      "sha": "390a7b04725baf3239881d7320089bb29cb2acca",
+      "short": "390a7b0",
+      "message": "add build specification for GitLab Example",
+      "author": "Michal Koz\u00e1k",
+      "date": "2026-09-25T15:45:58Z",
+      "project": true,
+      "dep_only": false
+    },
     {
       "sha": "00a898fcfe1ec150fea29be43f3fd456854cbcd0",
       "short": "00a898f",
