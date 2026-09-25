@@ -1,0 +1,342 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "pkg:nipkg/ni-labview-2026-vilib@26.3.0.49792-0%2Bf640",
+      "description": "This is an infrastructure package for NI Software.",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.ni.com"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "246ec18df75eb2d1bf37435e8fd426d5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f67a2aeeb33a66e2bdb9446fbf5b4060e911bb90750e6aef1167eb47eec64b06"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "NI Software License Agreement for Released Products"
+          }
+        }
+      ],
+      "name": "ni-labview-2026-vilib",
+      "properties": [
+        {
+          "name": "vipm:display-name",
+          "value": "NI LabVIEW (64-bit) VI Library"
+        },
+        {
+          "name": "vipm:display-version",
+          "value": "2026 Q3"
+        }
+      ],
+      "purl": "pkg:nipkg/ni-labview-2026-vilib@26.3.0.49792-0%2Bf640",
+      "supplier": {
+        "contact": [
+          {
+            "email": "support@ni.com"
+          }
+        ],
+        "name": "National Instruments"
+      },
+      "type": "library",
+      "version": "26.3.0.49792-0+f640"
+    },
+    {
+      "bom-ref": "pkg:vipm/jki_lib_caraya@1.4.4.148",
+      "description": "Caraya Unit Test Framework is an open source unit testing framework for LabVIEW. It takes a whole new approach to unit testing; your VI is your test. Caraya allows you to convert your manual test VIs you use for debugging into unit test cases with nearly no effort. Even running the tests is easy, just run the test case VI. Caraya significantly lowers the barrier for developers to write unit tests leading into improved overall code quality in real-world projects where developers don’t always have the luxury to write unit test cases first.\n\nIt runs on real-time targets and in the run-time engine too!\n\nTo learn more visit\n\nhttp://jki.net/tools#caraya",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/JKISoftware/Caraya"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "eb861e25b23f3f3150f50cef8d7737a26d3acfc4af94538b27c72e88c8ea064f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "New BSD"
+          }
+        }
+      ],
+      "name": "jki_lib_caraya",
+      "properties": [
+        {
+          "name": "vipm:display-name",
+          "value": "Caraya Unit Test Framework"
+        }
+      ],
+      "purl": "pkg:vipm/jki_lib_caraya@1.4.4.148",
+      "supplier": {
+        "name": "JKI"
+      },
+      "type": "library",
+      "version": "1.4.4.148"
+    },
+    {
+      "bom-ref": "pkg:vipm/labview_open_source_lib_data_manipulation@1.5.0.15",
+      "description": "Data Manipulation is a collection of low-level data manipulation methods for interacting directly with type descriptors and variants to process flattened data efficiently.",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/LabVIEW-Open-Source/DataManipulation"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d5a7b8bff11c67506a31885cd9d75c9c8a3639ace157f9cfcbc0205dd393cbbb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD 0-Clause"
+          }
+        }
+      ],
+      "name": "labview_open_source_lib_data_manipulation",
+      "properties": [
+        {
+          "name": "vipm:display-name",
+          "value": "Data Manipulation"
+        }
+      ],
+      "purl": "pkg:vipm/labview_open_source_lib_data_manipulation@1.5.0.15",
+      "supplier": {
+        "name": "LabVIEW Open Source Project"
+      },
+      "type": "library",
+      "version": "1.5.0.15"
+    },
+    {
+      "bom-ref": "pkg:vipm/labview_open_source_lib_epoch_datetime@1.3.0.8",
+      "description": "Epoch Date & Time is a unified time library for LabVIEW\r\n\r\nThis library provides support for UTC, Unix and GPS Epochs, enabling the conversion of timestamps into the proper frame of reference. It supports leap seconds to accurately convert from UTC (coordinatad universal time) to GPS (global positioning system) with proper offset based on divergence between UTC and TAI (international atomic time). It is completed with an extensible interface for Date-String formatters and comes pre-loaded with ISO8601 and RFC5322 support.\r\n\r\n- ISO8601:2019 is the international standard for date and time on almost every modern interoperable systems and databases. (RFC3339 strings can be read with non-strict ISO validation flag)\r\n- RFC5322 is the standard for email headers format, which includes a Date-Time string. This library covers only the date-time string part of the standard.\r\n\r\nEpochs\r\nUTC epoch starts on 1904-01-01\r\nLocal System is referenced to UTC with a time offset (from -14:00 to +12:00)\r\nUnix epoch starts on 1970-01-01\r\nGPS epoch starts on 1980-01-06\r\n\r\nKeywords: \r\nLeap Year, leap second\r\nUTC Time zone offset\r\nISO8601, RFC5322, Epoch\r\nGPS, Unix, UTC, Local System Time\r\n\r\nExample:\r\nTaking the following date and time: January 1st, 2021 @ 11:50:22.587 in Montreal:\r\n\r\nUTC DateTime = 2021-01-09T16:50:22.587Z\r\nNon UTC DateTime = 2021-01-08T11:50:22.587-05:00\r\nISO Date = 2021-01-09 or 20210109\r\nISO Calendar month = 2021-01\r\nISO Week = 2021-W01\r\nISO Week-Day = 2021-W01-6\r\nISO Ordinal Date = 2021-009\r\nThe reverse operation (ISO8601 DateString to Timestamp) supports all the above accepted formats, validates the input string for compliance and returns the ISO Format type matched.\r\n\r\nRFC3339 Format\r\nRFC3339 is based on ISO8601 but allows for a few deviations. A notable one is the space to replace the \"T\" in the UTC DateTime. Instead of providing an entirely separate method, the DateTime to Timestamp exposes a \"Strict ISO?\" terminal which can be set to false to accept RFC3339 format as a valid date-time string.\r\n\r\nRFC5322 Format\r\nNeeded for HTTP1.1 Support. Allows backward compatibility with RFC850 and ANSI-C time formats.\r\n\r\nCompare Timestamps\r\nBecause of the high resolution of the LabVIEW Timestamps, and the limited resolution of date-time strings, validation of equality needs to be performed with a certain precision. A practical method has been added to the palette to compare with a pre-defined resolution. The node defaults to 1 millisecond, but can be set to any fractional of multiple of 1, and units available span from nanoseconds to weeks. For simplicity, months and years have been ommitted because of extra computation required to handle leap years and different month lengths. All comparisons are performed in timestamp epoch (UTC).\r\n\r\nGPS, TAI and UTC\r\nGPS clocks and International Atomic Time are continuous and evenly-spaced, whereas UTC compensates for the fluctuation of Earth's rotation to keep the \"year\" synchronized for human activities. Therefore, leap seconds are sometimes added or removed to UTC time. Based on the history of the number of leap seconds added to the UTC, one must use this look-up table to make the exact time conversions. Leap Seconds record is kept in a table maintained by an international consortium (https://www.ietf.org/timezones/data/leap-seconds.list)\r\n",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/LabVIEW-Open-Source/Epoch-Time"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a15eb7abb6be7181aa2b4cb269ca38c20910bec5e4dd9450e9c4a1de1e7453bd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD 0-Clause"
+          }
+        }
+      ],
+      "name": "labview_open_source_lib_epoch_datetime",
+      "properties": [
+        {
+          "name": "vipm:display-name",
+          "value": "Epoch Date & Time"
+        }
+      ],
+      "purl": "pkg:vipm/labview_open_source_lib_epoch_datetime@1.3.0.8",
+      "supplier": {
+        "name": "LabVIEW Open Source Project"
+      },
+      "type": "library",
+      "version": "1.3.0.8"
+    },
+    {
+      "bom-ref": "pkg:vipm/labview_open_source_lib_unicity@1.1.0.6",
+      "description": "Unicity is a unique name management library to keep track of modules or subsystems through unique IDs, Fully Qualified Names linked to a composition hierarchy.\r\nThe tools include configurable Registry for unique string generation, name incrementation formatting, etc.",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/LabVIEW-Open-Source"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "005a7de62ec82de9810234915d64ac1f0fcb23f35baf3b4eb2304bf6f4a0974a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Zero-Claude BSD"
+          }
+        }
+      ],
+      "name": "labview_open_source_lib_unicity",
+      "properties": [
+        {
+          "name": "vipm:display-name",
+          "value": "Unicity"
+        }
+      ],
+      "purl": "pkg:vipm/labview_open_source_lib_unicity@1.1.0.6",
+      "supplier": {
+        "name": "LabVIEW Open Source Project"
+      },
+      "type": "library",
+      "version": "1.1.0.6"
+    },
+    {
+      "bom-ref": "pkg:vipm/labview_open_source_project_lib_connection@1.0.0.5",
+      "description": "Connection\r\nhttps://github.com/LabVIEW-Open-Source/Connection\r\n\r\nThis package consists the fundamental building blocks for abstract connection extensions\r\r\n\r\n",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/LabVIEW-Open-Source/Connection"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f4dd576df6f735053930f3f38f23de718259e8033d052c64f8c38483dbfbd4ed"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "0-BSD"
+          }
+        }
+      ],
+      "name": "labview_open_source_project_lib_connection",
+      "properties": [
+        {
+          "name": "vipm:display-name",
+          "value": "Connection"
+        }
+      ],
+      "purl": "pkg:vipm/labview_open_source_project_lib_connection@1.0.0.5",
+      "supplier": {
+        "name": "LabVIEW Open Source Project"
+      },
+      "type": "library",
+      "version": "1.0.0.5"
+    },
+    {
+      "bom-ref": "pkg:vipm/labview_open_source_project_lib_openuri@1.4.0.13",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/LabVIEW-Open-Source/URI"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6fb1e98f6bca0cdde480dce57f1e688b727f6484738aaa4fb4564213f495e567"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "0-BSD"
+          }
+        }
+      ],
+      "name": "labview_open_source_project_lib_openuri",
+      "properties": [
+        {
+          "name": "vipm:display-name",
+          "value": "OpenURI"
+        }
+      ],
+      "purl": "pkg:vipm/labview_open_source_project_lib_openuri@1.4.0.13",
+      "supplier": {
+        "name": "LabVIEW Open Source Project"
+      },
+      "type": "library",
+      "version": "1.4.0.13"
+    },
+    {
+      "bom-ref": "pkg:vipm/labview_open_source_project_lib_serializer_base64@1.0.2.4",
+      "description": "Base64 Encoder and Decoder\r\nOpenSerializer Base64 Encoder",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/LabVIEW-Open-Source/Serializer.Base64"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "80e4d8123d868ab101e06e86d9fe2ba97c36f04c7a1b7bd52bf96456ffb6d1b0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "0-BSD and MIT"
+          }
+        }
+      ],
+      "name": "labview_open_source_project_lib_serializer_base64",
+      "properties": [
+        {
+          "name": "vipm:display-name",
+          "value": "OpenSerializer.Base64"
+        }
+      ],
+      "purl": "pkg:vipm/labview_open_source_project_lib_serializer_base64@1.0.2.4",
+      "supplier": {
+        "name": "LabVIEW Open Source Project"
+      },
+      "type": "library",
+      "version": "1.0.2.4"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "pkg:nipkg/ni-labview-2026-vilib@26.3.0.49792-0%2Bf640",
+        "pkg:vipm/jki_lib_caraya@1.4.4.148",
+        "pkg:vipm/labview_open_source_lib_data_manipulation@1.5.0.15",
+        "pkg:vipm/labview_open_source_lib_epoch_datetime@1.3.0.8",
+        "pkg:vipm/labview_open_source_lib_unicity@1.1.0.6",
+        "pkg:vipm/labview_open_source_project_lib_connection@1.0.0.5",
+        "pkg:vipm/labview_open_source_project_lib_openuri@1.4.0.13",
+        "pkg:vipm/labview_open_source_project_lib_serializer_base64@1.0.2.4"
+      ],
+      "ref": "pkg:vipm/Oauth2-0"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "pkg:vipm/Oauth2-0",
+      "name": "Oauth2.0",
+      "type": "application"
+    },
+    "timestamp": "2026-09-25T15:35:30.036Z",
+    "tools": {
+      "components": [
+        {
+          "name": "vipm-cli",
+          "publisher": "JKI",
+          "type": "application",
+          "version": "2026.3.0"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:f153e62f-481e-4a0f-9584-4861de41f4f6",
+  "specVersion": "1.5",
+  "version": 1
+}
