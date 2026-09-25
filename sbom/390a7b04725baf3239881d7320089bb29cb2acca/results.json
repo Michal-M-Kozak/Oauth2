@@ -1,0 +1,77 @@
+{
+ "meta": {
+  "sha": "390a7b04725baf3239881d7320089bb29cb2acca",
+  "short": "390a7b0",
+  "platform": "windows",
+  "repo": "Michal-M-Kozak/Oauth2",
+  "pages_url": "https://Michal-M-Kozak.github.io/Oauth2",
+  "dash_url": "https://Michal-M-Kozak.github.io/Oauth2/",
+  "labview_version": "2026",
+  "commit": {
+   "message": "add build specification for GitLab Example",
+   "author": "Michal Kozák",
+   "date": "2026-09-25T17:45:58+02:00"
+  },
+  "generated_utc": "2026-09-25 16:04 UTC",
+  "spdx_version": "CycloneDX 1.5",
+  "created": ""
+ },
+ "summary": {
+  "total_packages": 8
+ },
+ "platforms": [
+  {
+   "id": "windows",
+   "url": null
+  },
+  {
+   "id": "linux",
+   "url": "linux/results.json"
+  }
+ ],
+ "packages": [
+  {
+   "name": "ni-labview-2026-vilib",
+   "version": "26.3.0.49792-0+f640",
+   "vendor": "National Instruments"
+  },
+  {
+   "name": "jki_lib_caraya",
+   "version": "1.4.4.148",
+   "vendor": "JKI"
+  },
+  {
+   "name": "labview_open_source_lib_data_manipulation",
+   "version": "1.5.0.15",
+   "vendor": "LabVIEW Open Source Project"
+  },
+  {
+   "name": "labview_open_source_lib_epoch_datetime",
+   "version": "1.3.0.8",
+   "vendor": "LabVIEW Open Source Project"
+  },
+  {
+   "name": "labview_open_source_lib_unicity",
+   "version": "1.1.0.6",
+   "vendor": "LabVIEW Open Source Project"
+  },
+  {
+   "name": "labview_open_source_project_lib_connection",
+   "version": "1.0.0.5",
+   "vendor": "LabVIEW Open Source Project"
+  },
+  {
+   "name": "labview_open_source_project_lib_openuri",
+   "version": "1.4.0.13",
+   "vendor": "LabVIEW Open Source Project"
+  },
+  {
+   "name": "labview_open_source_project_lib_serializer_base64",
+   "version": "1.0.2.4",
+   "vendor": "LabVIEW Open Source Project"
+  }
+ ],
+ "tooling": {
+  "missing": []
+ }
+}
