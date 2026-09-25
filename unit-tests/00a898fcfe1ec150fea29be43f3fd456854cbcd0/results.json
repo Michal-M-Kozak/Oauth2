@@ -1,0 +1,71 @@
+{
+ "meta": {
+  "sha": "00a898fcfe1ec150fea29be43f3fd456854cbcd0",
+  "short": "00a898f",
+  "platform": "windows",
+  "repo": "Michal-M-Kozak/Oauth2",
+  "pages_url": "https://Michal-M-Kozak.github.io/Oauth2",
+  "snap_base": "https://Michal-M-Kozak.github.io/Oauth2/vi-snapshots/",
+  "dash_url": "https://Michal-M-Kozak.github.io/Oauth2/",
+  "labview_version": "2026",
+  "tools": [],
+  "commit": {
+   "message": "add first unit tests",
+   "author": "Michal Kozák",
+   "date": "2026-09-25T17:17:34+02:00"
+  },
+  "generated_utc": "2026-09-25 15:33 UTC"
+ },
+ "summary": {
+  "tests": 0,
+  "passed": 0,
+  "failed": 0,
+  "errored": 0,
+  "skipped": 0,
+  "percent": 0,
+  "status": "empty",
+  "duration": 0.0
+ },
+ "status_order": [
+  "failed",
+  "error",
+  "skipped",
+  "passed"
+ ],
+ "status_meta": {
+  "failed": {
+   "label": "Failed",
+   "color": "#da3633",
+   "blurb": "An assertion failed."
+  },
+  "error": {
+   "label": "Errored",
+   "color": "#bb8009",
+   "blurb": "The test raised an unexpected error."
+  },
+  "skipped": {
+   "label": "Skipped",
+   "color": "#6e7681",
+   "blurb": "The test was skipped."
+  },
+  "passed": {
+   "label": "Passed",
+   "color": "#2ea043",
+   "blurb": "The test passed."
+  }
+ },
+ "platforms": [
+  {
+   "id": "windows",
+   "url": null
+  },
+  {
+   "id": "linux",
+   "url": "linux/results.json"
+  }
+ ],
+ "suites": [],
+ "tooling": {
+  "missing": []
+ }
+}
