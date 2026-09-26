@@ -241,7 +241,7 @@
     // the install/Configure iframe and its in-flight work. When a refresh comes due
     // with a dialog open, keep re-checking and reload only once it is closed.
     (function () {
-      var REFRESH_MS = 60 * 1000;
+      var REFRESH_MS = 900 * 1000;
       if (!(REFRESH_MS > 0)) return;
       function tick() {
         if (lvciModalOpen()) { setTimeout(tick, 5000); return; }
@@ -2014,7 +2014,7 @@
   </script>
   <main class="lvci-main">
   <h1>CI Dashboard — Oauth2</h1>
-  <div class="sub">Last updated: 2026-09-26 09:05 UTC &nbsp;|&nbsp; Live — refreshing every 60 s while CI runs</div>
+  <div class="sub">Last updated: 2026-09-26 14:05 UTC &nbsp;|&nbsp; Auto-refreshes every 15 min</div>
   <div class="nav">
     <a href="https://github.com/Michal-M-Kozak/Oauth2">GitHub</a>
     <a href="https://github.com/Michal-M-Kozak/Oauth2/actions">Actions</a>
@@ -2094,7 +2094,7 @@
       <td style="text-align:center" class="cidash-cap-cell" data-cap="snapshots" data-sha="ea2b0fe3c7d2a0d83a93f0beb58f598066dd778d" data-parent="390a7b04725baf3239881d7320089bb29cb2acca" data-short="ea2b0fe" data-ts="2026-09-26T07:26:25Z" data-done="true"><span class="cidash-chip cc-info" title="Snapshots rendered for all 93 VIs in this revision"><a href="https://Michal-M-Kozak.github.io/Oauth2/vi-snapshots/index.html?sha=ea2b0fe3c7d2a0d83a93f0beb58f598066dd778d" style="color:inherit">93</a></span></td>
       <td style="text-align:center" class="cidash-cap-cell" data-cap="unit-tests" data-sha="ea2b0fe3c7d2a0d83a93f0beb58f598066dd778d" data-parent="390a7b04725baf3239881d7320089bb29cb2acca" data-short="ea2b0fe" data-ts="2026-09-26T07:27:11Z"><span class="cidash-chip cc-pass" title="No unit tests found; 0% failed."><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L1.22 9.28a.75.75 0 1 1 1.06-1.06L6 11.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg><a href="https://Michal-M-Kozak.github.io/Oauth2/report/index.html?type=unit-tests-report&sha=ea2b0fe3c7d2a0d83a93f0beb58f598066dd778d&short=ea2b0fe&src=..%2Funit-tests%2Fea2b0fe3c7d2a0d83a93f0beb58f598066dd778d%2Findex.html&title=Unit%20Tests%20%C2%B7%20ea2b0fe" style="color:inherit">0% failed</a></span></td>
       <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
-      <td style="text-align:center" class="cidash-active-cell" data-cap="builds" data-sha="ea2b0fe3c7d2a0d83a93f0beb58f598066dd778d" data-parent="390a7b04725baf3239881d7320089bb29cb2acca" data-short="ea2b0fe" data-active="true"><span class="run-badge" title="Running — click to view progress"><a href="https://github.com/Michal-M-Kozak/Oauth2/actions/runs/36225999268" style="color:#fff;text-decoration:none;display:inline-flex;align-items:center;gap:5px"><span class="run-spin"></span>build</a></span></td>
+      <td style="text-align:center" class="cidash-cap-cell" data-cap="builds" data-sha="ea2b0fe3c7d2a0d83a93f0beb58f598066dd778d" data-parent="390a7b04725baf3239881d7320089bb29cb2acca" data-short="ea2b0fe" data-ts="2026-09-26T07:28:07Z"><span class="cidash-chip cc-split" title="1 built, 0 failed of 1 build specification(s)"><a href="https://Michal-M-Kozak.github.io/Oauth2/report/index.html?type=builds-report&sha=ea2b0fe3c7d2a0d83a93f0beb58f598066dd778d&short=ea2b0fe&src=..%2Fbuilds%2Fea2b0fe3c7d2a0d83a93f0beb58f598066dd778d%2Findex.html&title=Builds%20%C2%B7%20ea2b0fe" style="color:inherit"><span class="cidash-vseg cc-pass" data-tip="Succeeded">1</span><span class="cidash-vseg-sep">/</span><span class="cidash-vseg cc-muted" data-tip="Failed">0</span></a></span></td>
     </tr>
 
     <tr data-project="true" data-deponly="false">
