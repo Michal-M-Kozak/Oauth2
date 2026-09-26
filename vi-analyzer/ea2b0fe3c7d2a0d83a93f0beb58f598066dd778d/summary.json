@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "sha": "ea2b0fe3c7d2a0d83a93f0beb58f598066dd778d",
+    "short": "ea2b0fe",
+    "platform": "windows",
+    "repo": "Michal-M-Kozak/Oauth2",
+    "pages_url": "https://Michal-M-Kozak.github.io/Oauth2",
+    "pages_base": "../..",
+    "commit": {
+      "message": "add fail test",
+      "author": "Michal Kozák",
+      "date": "2026-09-26T09:10:56+02:00"
+    },
+    "generated_utc": "2026-09-26 07:51 UTC",
+    "analysis_date": "Saturday, September 26, 2026 7:51:06 AM",
+    "duration": "00:04:22.53"
+  },
+  "summary": {
+    "vis_analyzed": 111,
+    "tests_run": 11544,
+    "passed": 10839,
+    "failed": 705,
+    "skipped": 0,
+    "findings": 748,
+    "vis_with_findings": 93
+  },
+  "errors": {
+    "vi_not_loadable": 0,
+    "test_not_loadable": 0,
+    "test_not_runnable": 0,
+    "test_error_out": 0
+  },
+  "rule_counts": [
+    {
+      "test": "Spell Check",
+      "severity": "documentation",
+      "count": 109,
+      "vi_count": 52
+    },
+    {
+      "test": "VI Documentation",
+      "severity": "documentation",
+      "count": 93,
+      "vi_count": 93
+    },
+    {
+      "test": "Panel Size and Position",
+      "severity": "style",
+      "count": 79,
+      "vi_count": 71
+    },
+    {
+      "test": "Enabled Debugging",
+      "severity": "performance",
+      "count": 67,
+      "vi_count": 67
+    },
+    {
+      "test": "Comment Usage",
+      "severity": "documentation",
+      "count": 63,
+      "vi_count": 63
+    },
+    {
+      "test": "Error Cluster Wired",
+      "severity": "correctness",
+      "count": 59,
+      "vi_count": 26
+    },
+    {
+      "test": "Wires Under Objects",
+      "severity": "style",
+      "count": 58,
+      "vi_count": 21
+    },
+    {
+      "test": "Wire Bends",
+      "severity": "style",
+      "count": 41,
+      "vi_count": 25
+    },
+    {
+      "test": "Reentrant VI Issues",
+      "severity": "correctness",
+      "count": 19,
+      "vi_count": 12
+    },
+    {
+      "test": "In Place Element Structure Usage",
+      "severity": "performance",
+      "count": 18,
+      "vi_count": 14
+    },
+    {
+      "test": "String Constant Style",
+      "severity": "style",
+      "count": 18,
+      "vi_count": 17
+    },
+    {
+      "test": "Diagram Size",
+      "severity": "style",
+      "count": 17,
+      "vi_count": 17
+    },
+    {
+      "test": "Control Alignment",
+      "severity": "style",
+      "count": 14,
+      "vi_count": 14
+    },
+    {
+      "test": "Parallelizable Loops",
+      "severity": "performance",
+      "count": 13,
+      "vi_count": 11
+    },
+    {
+      "test": "Icon Size and Border",
+      "severity": "style",
+      "count": 12,
+      "vi_count": 12
+    },
+    {
+      "test": "Unused Code",
+      "severity": "performance",
+      "count": 11,
+      "vi_count": 11
+    },
+    {
+      "test": "Diagram Disable Structures",
+      "severity": "style",
+      "count": 9,
+      "vi_count": 9
+    },
+    {
+      "test": "Array Constant Style",
+      "severity": "style",
+      "count": 6,
+      "vi_count": 4
+    },
+    {
+      "test": "Auto Error Handling Enabled",
+      "severity": "correctness",
+      "count": 6,
+      "vi_count": 6
+    },
+    {
+      "test": "Backwards Wires",
+      "severity": "style",
+      "count": 5,
+      "vi_count": 5
+    },
+    {
+      "test": "Approved Bookmark Tags",
+      "severity": "style",
+      "count": 4,
+      "vi_count": 4
+    },
+    {
+      "test": "Clipped Text",
+      "severity": "style",
+      "count": 4,
+      "vi_count": 4
+    },
+    {
+      "test": "Array Default Values",
+      "severity": "correctness",
+      "count": 3,
+      "vi_count": 3
+    },
+    {
+      "test": "Case Structure Default Frame",
+      "severity": "style",
+      "count": 3,
+      "vi_count": 2
+    },
+    {
+      "test": "Control Terminal Wiring",
+      "severity": "style",
+      "count": 3,
+      "vi_count": 3
+    },
+    {
+      "test": "Default Icon",
+      "severity": "style",
+      "count": 3,
+      "vi_count": 3
+    },
+    {
+      "test": "Arrays and Strings in Loops",
+      "severity": "performance",
+      "count": 2,
+      "vi_count": 2
+    },
+    {
+      "test": "Fan Out",
+      "severity": "style",
+      "count": 2,
+      "vi_count": 2
+    },
+    {
+      "test": "Overlapping Controls",
+      "severity": "correctness",
+      "count": 2,
+      "vi_count": 2
+    },
+    {
+      "test": "Connector Inputs and Outputs",
+      "severity": "correctness",
+      "count": 1,
+      "vi_count": 1
+    },
+    {
+      "test": "Hidden Tunnels",
+      "severity": "correctness",
+      "count": 1,
+      "vi_count": 1
+    },
+    {
+      "test": "Node Count",
+      "severity": "style",
+      "count": 1,
+      "vi_count": 1
+    },
+    {
+      "test": "Prepend Scalar With Build Array",
+      "severity": "style",
+      "count": 1,
+      "vi_count": 1
+    },
+    {
+      "test": "Tunnel Position",
+      "severity": "style",
+      "count": 1,
+      "vi_count": 1
+    }
+  ]
+}
