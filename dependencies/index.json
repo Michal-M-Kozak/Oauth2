@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "Michal-M-Kozak/Oauth2",
-  "sha": "390a7b04725baf3239881d7320089bb29cb2acca",
+  "sha": "ea2b0fe3c7d2a0d83a93f0beb58f598066dd778d",
   "revisions": [
+    {
+      "sha": "ea2b0fe3c7d2a0d83a93f0beb58f598066dd778d",
+      "short": "ea2b0fe",
+      "message": "add fail test",
+      "author": "Michal Koz\u00e1k",
+      "date": "2026-09-26T07:10:56Z",
+      "project": true,
+      "dep_only": false
+    },
     {
       "sha": "390a7b04725baf3239881d7320089bb29cb2acca",
       "short": "390a7b0",
