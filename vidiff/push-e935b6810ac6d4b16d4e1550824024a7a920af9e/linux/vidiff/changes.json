@@ -1,0 +1,10 @@
+{
+  "platform": "linux",
+  "files": [
+    {
+      "file": "tests/Modules/SubTest.vi",
+      "type": "modified",
+      "report": "tests-Modules-SubTest.vi/index.html"
+    }
+  ]
+}
