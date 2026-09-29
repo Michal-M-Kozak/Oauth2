@@ -1,8 +1,26 @@
 {
   "schema": 1,
   "repo": "Michal-M-Kozak/Oauth2",
-  "sha": "eb01f44c21d261cb2632967a9ba72e0e1b3da733",
+  "sha": "cfb6141d93157bd30e8f2f91d4cdc45a4c7b9d2e",
   "revisions": [
+    {
+      "sha": "cfb6141d93157bd30e8f2f91d4cdc45a4c7b9d2e",
+      "short": "cfb6141",
+      "message": "Merge pull request #9 from Michal-M-Kozak/labview-ci/reconfigure-36595441896",
+      "author": "Michal Koz\u00e1k",
+      "date": "2026-09-29T16:08:57Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "b2d06155b018881a85610ac20114b4f256994167",
+      "short": "b2d0615",
+      "message": "ci: reconfigure LabVIEW CI settings",
+      "author": "github-actions[bot]",
+      "date": "2026-09-29T16:07:59Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "eb01f44c21d261cb2632967a9ba72e0e1b3da733",
       "short": "eb01f44",
