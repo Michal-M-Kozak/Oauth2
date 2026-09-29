@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "Michal-M-Kozak/Oauth2",
-  "sha": "cfb6141d93157bd30e8f2f91d4cdc45a4c7b9d2e",
+  "sha": "40b06086aa5b433657fb89ecf5aa51418f5fe6d8",
   "revisions": [
+    {
+      "sha": "40b06086aa5b433657fb89ecf5aa51418f5fe6d8",
+      "short": "40b0608",
+      "message": "add debug lvproj to debug",
+      "author": "Michal Koz\u00e1k",
+      "date": "2026-09-29T16:12:05Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "cfb6141d93157bd30e8f2f91d4cdc45a4c7b9d2e",
       "short": "cfb6141",
