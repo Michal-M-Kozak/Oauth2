@@ -1,0 +1,23 @@
+{
+    "repo":  "Michal-M-Kozak/Oauth2",
+    "sha":  "e935b6810ac6d4b16d4e1550824024a7a920af9e",
+    "ref":  "refs/heads/main",
+    "platform":  "windows",
+    "arch":  "AMD64",
+    "labview_version":  "LabVIEW 2026",
+    "built_at":  "2026-09-29T14:28:37Z",
+    "specs":  [
+                  {
+                      "project":  "Oauth2.0.lvproj",
+                      "name":  "GitLab Example",
+                      "type":  "EXE",
+                      "target":  "My Computer",
+                      "status":  "failed",
+                      "outputs":  [
+
+                                  ],
+                      "message":  "ExecuteBuildSpec exited 2",
+                      "duration":  38.5
+                  }
+              ]
+}
