@@ -2,7 +2,7 @@
 # Updated by the Reconfigure workflow.
 schemaVersion: 1
 installedVersion: 4.16.3
-configuredAt: 2026-09-29T14:05:55Z
+configuredAt: 2026-09-29T14:08:33Z
 source:
   repo: elijah286/LabVIEW-CI-with-Containers
   ref: v4.16.3
@@ -37,7 +37,7 @@ unitTests:
     caraya:
       enabled: true
       locations:
-        - "/tests/*"
+        - "tests/"
     lunit:
       enabled: false
       locations: []
