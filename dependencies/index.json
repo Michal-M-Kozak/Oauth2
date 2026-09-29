@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "Michal-M-Kozak/Oauth2",
-  "sha": "e935b6810ac6d4b16d4e1550824024a7a920af9e",
+  "sha": "a5be1932ddec84a94dab3dd369d9f45b772c58fa",
   "revisions": [
+    {
+      "sha": "a5be1932ddec84a94dab3dd369d9f45b772c58fa",
+      "short": "a5be193",
+      "message": "LV proj changed to 20",
+      "author": "Michal Koz\u00e1k",
+      "date": "2026-09-29T15:00:24Z",
+      "project": true,
+      "dep_only": false
+    },
     {
       "sha": "e935b6810ac6d4b16d4e1550824024a7a920af9e",
       "short": "e935b68",
