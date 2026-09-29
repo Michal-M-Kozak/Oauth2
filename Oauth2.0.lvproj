@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
-	<Property Name="NI.LV.All.SaveVersion" Type="Str">17.0</Property>
+<Project Type="Project" LVVersion="20008000">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">20.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -53,6 +53,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{E70EB67F-22AC-4607-9E10-116142507720}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{319A697F-53DB-4E7E-B1F7-464B6530C7F8}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{56CDED37-E994-44A4-BD8B-DB40F871780E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GitLab Example</Property>
