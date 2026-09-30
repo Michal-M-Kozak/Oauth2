@@ -1,3 +1,4 @@
+# LabVIEW CI tooling v4.18.4 - this version stamp changes on every tooling update so the update push touches this file and GitHub (re)registers the workflow.
 name: Mass Compile — Linux Container
 run-name: Mass Compile Linux container - ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.commit_sha || github.event.pull_request.head.sha || github.sha }}
 
@@ -40,7 +41,7 @@ permissions:
   pages: write
   statuses: write
   packages: read
-  actions: read   # so wait-for-worker-image.sh can read the worker-image build runs
+  actions: write  # wait-for-worker-image.sh reads worker-image build runs and starts the first build on a fresh fork
 
 # This Linux report deploys to gh-pages directly. Every report workflow now uses
 # its own per-activity+revision concurrency group, so different activities run in
@@ -243,6 +244,10 @@ jobs:
           else
             DESC="Mass Compile (Linux) $STATE"
           fi
+          # A pull failure means the compile never ran; make the status say so.
+          if [ "${{ steps.pull.outcome }}" != "success" ]; then
+            DESC="Worker image unavailable - build it via Configure Workers"
+          fi
           curl -s -X POST \
             -H "Authorization: token $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
@@ -251,4 +256,11 @@ jobs:
 
       - name: Fail the job if compile failed
         if: always() && (steps.pull.outcome != 'success' || steps.compile.outcome != 'success')
-        run: exit 1
+        shell: bash
+        run: |
+          if [ "${{ steps.pull.outcome }}" != "success" ]; then
+            echo "::error::The worker container image could not be pulled, so Mass Compile never ran. If it has never been built for this repository, run 'Build LabVIEW CI Image - Linux' (Actions) or use Configure Workers on the dashboard, then re-run this job."
+          else
+            echo "::error::Mass Compile failed - open the compile step log or the report above."
+          fi
+          exit 1

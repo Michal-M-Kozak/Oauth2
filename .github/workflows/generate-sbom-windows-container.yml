@@ -1,10 +1,11 @@
+# LabVIEW CI tooling v4.18.4 - this version stamp changes on every tooling update so the update push touches this file and GitHub (re)registers the workflow.
 name: Generate SBOM — Windows Container
 run-name: Generate SBOM Windows container - ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.commit_sha || github.event.pull_request.head.sha || github.sha }}
 
 # Generates a Software Bill of Materials (SBOM) for LabVIEW VIPM dependencies
 # inside the project's CI worker image, processes the spdx json into a navigable 
 # report (build-sbom-report.py), deploys it under sbom/<sha>/, and posts the 
-# "CI / SBOM" commit status for the dashboard. Manual runs come through workflow_dispatch.
+# "CI / SBOM Generation" commit status for the dashboard. Manual runs come through workflow_dispatch.
 
 on:
   # Triggers on changes to VIPM workspace dependencies (.vipc) or LabVIEW files in case that pulls in new dependency
@@ -45,7 +46,7 @@ permissions:
   pages: write
   statuses: write
   packages: read
-  actions: read
+  actions: write  # wait-for-worker-image.sh reads worker-image build runs and starts the first build on a fresh fork
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.inputs.commit_sha || github.sha }}
@@ -83,7 +84,7 @@ jobs:
             -H "Authorization: token $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${{ github.repository }}/statuses/${{ steps.sha.outputs.sha }}" \
-            -d "{\"state\":\"pending\",\"target_url\":\"https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\",\"description\":\"SBOM generation in progress\",\"context\":\"CI / SBOM\"}"
+            -d "{\"state\":\"pending\",\"target_url\":\"https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\",\"description\":\"SBOM generation in progress\",\"context\":\"CI / SBOM Generation\"}"
 
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -110,7 +111,7 @@ jobs:
           name="${IMAGE_OVERRIDE:-${GITHUB_REPOSITORY##*/}-labview}"
           name=$(printf '%s' "$name" | tr '[:upper:]' '[:lower:]')
           custom="ghcr.io/${owner}/${name}"
-          ACTION_ID="sbom"
+          ACTION_ID="sbom-generation"
           CFG=.github/labview-ci.yml
           sel=""
           if [ -f "$CFG" ]; then
@@ -260,11 +261,15 @@ jobs:
           else
             REPORT_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           fi
+          # A pull failure means the generator never ran; make the status say so.
+          if [ "${{ steps.pull.outcome }}" != "success" ]; then
+            DESC="Worker image unavailable - build it via Configure Workers"
+          fi
           curl -s -X POST \
             -H "Authorization: token $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${{ github.repository }}/statuses/${{ steps.sha.outputs.sha }}" \
-            -d "{\"state\":\"$STATE\",\"target_url\":\"$REPORT_URL\",\"description\":\"$DESC\",\"context\":\"CI / SBOM\"}"
+            -d "{\"state\":\"$STATE\",\"target_url\":\"$REPORT_URL\",\"description\":\"$DESC\",\"context\":\"CI / SBOM Generation\"}"
 
       - name: Post worker version status
         if: always() && steps.pull.outcome == 'success' && steps.worker.outputs.version != ''

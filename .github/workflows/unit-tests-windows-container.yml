@@ -1,3 +1,4 @@
+# LabVIEW CI tooling v4.18.4 - this version stamp changes on every tooling update so the update push touches this file and GitHub (re)registers the workflow.
 name: Run Unit Tests — Windows Container
 run-name: Unit Tests Windows container - ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.commit_sha || github.event.pull_request.head.sha || github.sha }}
 
@@ -50,7 +51,7 @@ permissions:
   pages: write
   statuses: write
   packages: read
-  actions: read   # so wait-for-worker-image.sh can read the worker-image build runs
+  actions: write  # wait-for-worker-image.sh reads worker-image build runs and starts the first build on a fresh fork
 
 # Each activity+revision gets its OWN concurrency group so different activities
 # (and different revisions) run in PARALLEL, and re-dispatching the SAME
@@ -296,6 +297,10 @@ jobs:
             REPORT_URL="${{ env.PAGES_URL }}/unit-tests/${{ steps.sha.outputs.sha }}/index.html"
           else
             REPORT_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi
+          # A pull failure means the tests never ran; make the status say so.
+          if [ "${{ steps.pull.outcome }}" != "success" ]; then
+            DESC="Worker image unavailable - build it via Configure Workers"
           fi
           curl -s -X POST \
             -H "Authorization: token $GH_TOKEN" \
