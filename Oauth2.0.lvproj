@@ -40,6 +40,7 @@
 		<Item Name="tests" Type="Folder">
 			<Item Name="Modules" Type="Folder">
 				<Item Name="SubTest.vi" Type="VI" URL="../tests/Modules/SubTest.vi"/>
+				<Item Name="SubTest2.vi" Type="VI" URL="../tests/Modules/SubTest2.vi"/>
 			</Item>
 			<Item Name="Main Test.vi" Type="VI" URL="../tests/Main Test.vi"/>
 		</Item>
