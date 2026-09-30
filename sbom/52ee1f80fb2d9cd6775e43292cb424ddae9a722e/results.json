@@ -1,0 +1,42 @@
+{
+ "meta": {
+  "sha": "52ee1f80fb2d9cd6775e43292cb424ddae9a722e",
+  "short": "52ee1f8",
+  "platform": "windows",
+  "repo": "Michal-M-Kozak/Oauth2",
+  "pages_url": "https://Michal-M-Kozak.github.io/Oauth2",
+  "dash_url": "https://Michal-M-Kozak.github.io/Oauth2/",
+  "labview_version": "2026",
+  "commit": {
+   "message": "add SubTest2",
+   "author": "Michal Kozák",
+   "date": "2026-09-30T11:59:14+02:00"
+  },
+  "generated_utc": "2026-09-30 10:17 UTC",
+  "spdx_version": "CycloneDX 1.5",
+  "created": ""
+ },
+ "summary": {
+  "total_packages": 1
+ },
+ "platforms": [
+  {
+   "id": "windows",
+   "url": null
+  },
+  {
+   "id": "linux",
+   "url": "linux/results.json"
+  }
+ ],
+ "packages": [
+  {
+   "name": "ni-labview-2026-vilib",
+   "version": "26.3.0.49792-0+f640",
+   "vendor": "National Instruments"
+  }
+ ],
+ "tooling": {
+  "missing": []
+ }
+}
