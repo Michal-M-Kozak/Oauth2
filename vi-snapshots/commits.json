@@ -1,10 +1,10 @@
 [
   {
-    "sha": "a5be1932ddec84a94dab3dd369d9f45b772c58fa",
-    "short": "a5be193",
-    "message": "LV proj changed to 20 mass compile",
+    "sha": "52ee1f80fb2d9cd6775e43292cb424ddae9a722e",
+    "short": "52ee1f8",
+    "message": "add SubTest2",
     "author": "Michal Kozák",
-    "date": "2026-09-29T17:00:24+02:00",
-    "vi_count": 93
+    "date": "2026-09-30T11:59:14+02:00",
+    "vi_count": 94
   }
 ]
