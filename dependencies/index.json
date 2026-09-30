@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "Michal-M-Kozak/Oauth2",
-  "sha": "52ee1f80fb2d9cd6775e43292cb424ddae9a722e",
+  "sha": "2053ef774f19f21dfaefaf6536a2938be6d3ec45",
   "revisions": [
+    {
+      "sha": "2053ef774f19f21dfaefaf6536a2938be6d3ec45",
+      "short": "2053ef7",
+      "message": "ci: adopt LabVIEW CI tooling v4.18.4 (full update)",
+      "author": "github-actions[bot]",
+      "date": "2026-09-30T10:55:54Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "52ee1f80fb2d9cd6775e43292cb424ddae9a722e",
       "short": "52ee1f8",
@@ -401,7 +410,7 @@
     }
   ],
   "config": {
-    "use": "latest",
+    "use": "",
     "actions": {},
     "vipc": [],
     "dragon": [],
