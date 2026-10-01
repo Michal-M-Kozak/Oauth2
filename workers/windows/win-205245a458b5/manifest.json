@@ -10,9 +10,9 @@
   "worker_layer": "repo-vipc-layer",
   "copied_from_base": false,
   "image_ref": "ghcr.io/michal-m-kozak/oauth2-labview:win-205245a458b5",
-  "build_date": "2026-10-01T09:01:23Z",
+  "build_date": "2026-10-01T11:27:08Z",
   "git_sha": "d5eb90a2b3e290d94cdc44fdc6e34433794567f5",
-  "run_url": "https://github.com/Michal-M-Kozak/Oauth2/actions/runs/36832467225",
+  "run_url": "https://github.com/Michal-M-Kozak/Oauth2/actions/runs/36849516899",
   "vipc": [
     {
       "file": "ci-tooling.vipc",
