@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Software Bill of Materials (SBOM) — LabVIEW CI</title>
-<script>window.LVCI = {"context": "sbom-report", "repo": "Michal-M-Kozak/Oauth2", "pagesUrl": "https://Michal-M-Kozak.github.io/Oauth2", "sha": "52ee1f80fb2d9cd6775e43292cb424ddae9a722e", "short": "52ee1f8", "platform": "windows"};</script>
+<script>window.LVCI = {"context": "sbom-report", "repo": "Michal-M-Kozak/Oauth2", "pagesUrl": "https://Michal-M-Kozak.github.io/Oauth2", "sha": "52ee1f80fb2d9cd6775e43292cb424ddae9a722e", "short": "52ee1f8", "platform": "windows", "rawUrl": "results/sbom.json"};</script>
 <script src="../../lvci-header.js" defer></script>
 <style>
 :root{--bg:#0d1117;--surface:#161b22;--surface2:#0d1117;--border:#30363d;--fg:#e6edf3;--muted:#8b949e;--link:#58a6ff;--code:#010409}
@@ -68,7 +68,7 @@ th{background:var(--surface2);color:var(--muted);font-weight:600}
   </div>
 </div>
 
-<script id="sbom-data" type="application/json">{"meta": {"sha": "52ee1f80fb2d9cd6775e43292cb424ddae9a722e", "short": "52ee1f8", "platform": "windows", "repo": "Michal-M-Kozak/Oauth2", "pages_url": "https://Michal-M-Kozak.github.io/Oauth2", "dash_url": "https://Michal-M-Kozak.github.io/Oauth2/", "labview_version": "2026", "commit": {"message": "add SubTest2", "author": "Michal Kozák", "date": "2026-09-30T11:59:14+02:00"}, "generated_utc": "2026-09-30 10:17 UTC", "spdx_version": "CycloneDX 1.5", "created": ""}, "summary": {"total_packages": 1}, "platforms": [{"id": "windows", "url": null}, {"id": "linux", "url": "linux/results.json"}], "packages": [{"name": "ni-labview-2026-vilib", "version": "26.3.0.49792-0+f640", "vendor": "National Instruments"}], "tooling": {"missing": []}}</script>
+<script id="sbom-data" type="application/json">{"meta": {"sha": "52ee1f80fb2d9cd6775e43292cb424ddae9a722e", "short": "52ee1f8", "platform": "windows", "repo": "Michal-M-Kozak/Oauth2", "pages_url": "https://Michal-M-Kozak.github.io/Oauth2", "dash_url": "https://Michal-M-Kozak.github.io/Oauth2/", "labview_version": "2026", "commit": {"message": "add SubTest2", "author": "Michal Kozák", "date": "2026-09-30T11:59:14+02:00"}, "generated_utc": "2026-10-01 09:39 UTC", "spdx_version": "CycloneDX 1.5", "created": ""}, "summary": {"total_packages": 8}, "platforms": [{"id": "windows", "url": null}, {"id": "linux", "url": null}], "packages": [{"name": "ni-labview-2026-vilib", "version": "26.3.0.49792-0+f640", "vendor": "National Instruments"}, {"name": "jki_lib_caraya", "version": "1.4.4.148", "vendor": "JKI"}, {"name": "labview_open_source_lib_data_manipulation", "version": "1.6.0.16", "vendor": "LabVIEW Open Source Project"}, {"name": "labview_open_source_lib_epoch_datetime", "version": "1.3.0.8", "vendor": "LabVIEW Open Source Project"}, {"name": "labview_open_source_lib_unicity", "version": "1.1.0.6", "vendor": "LabVIEW Open Source Project"}, {"name": "labview_open_source_project_lib_connection", "version": "1.1.0.10", "vendor": "LabVIEW Open Source Project"}, {"name": "labview_open_source_project_lib_openuri", "version": "1.4.0.13", "vendor": "LabVIEW Open Source Project"}, {"name": "labview_open_source_project_lib_serializer_base64", "version": "1.2.0.6", "vendor": "LabVIEW Open Source Project"}], "tooling": {"missing": []}}</script>
 <script>
 const SELF = JSON.parse(document.getElementById('sbom-data').textContent);
 const PLATFORMS = SELF.platforms || [{id:SELF.meta.platform,url:null}];
