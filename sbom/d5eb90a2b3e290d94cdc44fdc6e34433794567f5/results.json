@@ -1,0 +1,42 @@
+{
+ "meta": {
+  "sha": "d5eb90a2b3e290d94cdc44fdc6e34433794567f5",
+  "short": "d5eb90a",
+  "platform": "windows",
+  "repo": "Michal-M-Kozak/Oauth2",
+  "pages_url": "https://Michal-M-Kozak.github.io/Oauth2",
+  "dash_url": "https://Michal-M-Kozak.github.io/Oauth2/",
+  "labview_version": "2026",
+  "commit": {
+   "message": "update vipc",
+   "author": "Michal Kozák",
+   "date": "2026-10-01T09:28:41+02:00"
+  },
+  "generated_utc": "2026-10-01 07:59 UTC",
+  "spdx_version": "CycloneDX 1.5",
+  "created": ""
+ },
+ "summary": {
+  "total_packages": 1
+ },
+ "platforms": [
+  {
+   "id": "windows",
+   "url": null
+  },
+  {
+   "id": "linux",
+   "url": null
+  }
+ ],
+ "packages": [
+  {
+   "name": "ni-labview-2026-vilib",
+   "version": "26.3.0.49792-0+f640",
+   "vendor": "National Instruments"
+  }
+ ],
+ "tooling": {
+  "missing": []
+ }
+}
