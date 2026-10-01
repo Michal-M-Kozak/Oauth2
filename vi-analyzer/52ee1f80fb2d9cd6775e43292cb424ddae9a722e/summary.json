@@ -11,9 +11,9 @@
       "author": "Michal Kozák",
       "date": "2026-09-30T11:59:14+02:00"
     },
-    "generated_utc": "2026-09-30 10:22 UTC",
-    "analysis_date": "Wednesday, September 30, 2026 10:21:49 AM",
-    "duration": "00:03:32.74",
+    "generated_utc": "2026-10-01 09:53 UTC",
+    "analysis_date": "Thursday, October 1, 2026 9:53:34 AM",
+    "duration": "00:02:21.26",
     "configs": [
       {
         "label": "viatest/block_performance.viancfg",
@@ -23,18 +23,18 @@
   },
   "summary": {
     "vis_analyzed": 112,
-    "tests_run": 11620,
-    "passed": 10834,
-    "failed": 786,
+    "tests_run": 11648,
+    "passed": 10938,
+    "failed": 710,
     "skipped": 0,
-    "findings": 808,
+    "findings": 753,
     "vis_with_findings": 94
   },
   "errors": {
     "vi_not_loadable": 0,
     "test_not_loadable": 0,
     "test_not_runnable": 0,
-    "test_error_out": 28
+    "test_error_out": 0
   },
   "rule_counts": [
     {
@@ -48,12 +48,6 @@
       "severity": "documentation",
       "count": 94,
       "vi_count": 94
-    },
-    {
-      "test": "Broken VI",
-      "severity": "correctness",
-      "count": 80,
-      "vi_count": 80
     },
     {
       "test": "Panel Size and Position",
@@ -74,10 +68,16 @@
       "vi_count": 64
     },
     {
+      "test": "Error Cluster Wired",
+      "severity": "correctness",
+      "count": 59,
+      "vi_count": 26
+    },
+    {
       "test": "Wires Under Objects",
       "severity": "style",
-      "count": 61,
-      "vi_count": 24
+      "count": 59,
+      "vi_count": 22
     },
     {
       "test": "Wire Bends",
@@ -86,10 +86,10 @@
       "vi_count": 25
     },
     {
-      "test": "Error Cluster Wired",
+      "test": "Reentrant VI Issues",
       "severity": "correctness",
-      "count": 38,
-      "vi_count": 22
+      "count": 19,
+      "vi_count": 12
     },
     {
       "test": "In Place Element Structure Usage",
@@ -108,12 +108,6 @@
       "severity": "style",
       "count": 17,
       "vi_count": 17
-    },
-    {
-      "test": "Reentrant VI Issues",
-      "severity": "correctness",
-      "count": 15,
-      "vi_count": 12
     },
     {
       "test": "Control Alignment",
@@ -202,6 +196,12 @@
     {
       "test": "Arrays and Strings in Loops",
       "severity": "performance",
+      "count": 2,
+      "vi_count": 2
+    },
+    {
+      "test": "Fan Out",
+      "severity": "style",
       "count": 2,
       "vi_count": 2
     },
