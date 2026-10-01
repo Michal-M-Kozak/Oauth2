@@ -1,7 +1,7 @@
 {
-  "version": "win-c6221662a861",
+  "version": "win-205245a458b5",
   "platform": "windows",
-  "manifest_url": "https://michal-m-kozak.github.io/Oauth2/workers/windows/win-c6221662a861/manifest.html",
-  "build_date": "2026-09-30T10:56:06Z",
-  "git_sha": "2053ef774f19f21dfaefaf6536a2938be6d3ec45"
+  "manifest_url": "https://michal-m-kozak.github.io/Oauth2/workers/windows/win-205245a458b5/manifest.html",
+  "build_date": "2026-10-01T09:01:23Z",
+  "git_sha": "d5eb90a2b3e290d94cdc44fdc6e34433794567f5"
 }
