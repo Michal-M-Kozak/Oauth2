@@ -241,7 +241,7 @@
     // the install/Configure iframe and its in-flight work. When a refresh comes due
     // with a dialog open, keep re-checking and reload only once it is closed.
     (function () {
-      var REFRESH_MS = 60 * 1000;
+      var REFRESH_MS = 900 * 1000;
       if (!(REFRESH_MS > 0)) return;
       function tick() {
         if (lvciModalOpen()) { setTimeout(tick, 5000); return; }
@@ -2092,7 +2092,7 @@
   </script>
   <main class="lvci-main">
   <h1>CI Dashboard — Oauth2</h1>
-  <div class="sub">Last updated: 2026-10-01 11:29 UTC &nbsp;|&nbsp; Live — refreshing every 60 s while CI runs</div>
+  <div class="sub">Last updated: 2026-10-01 17:59 UTC &nbsp;|&nbsp; Auto-refreshes every 15 min</div>
   <div class="nav">
     <a href="https://github.com/Michal-M-Kozak/Oauth2">GitHub</a>
     <a href="https://github.com/Michal-M-Kozak/Oauth2/actions">Actions</a>
@@ -2194,7 +2194,7 @@
       <td style="text-align:center" class="cidash-cap-cell" data-cap="snapshots" data-sha="52ee1f80fb2d9cd6775e43292cb424ddae9a722e" data-parent="40b06086aa5b433657fb89ecf5aa51418f5fe6d8" data-short="52ee1f8" data-ts="2026-09-30T10:17:45Z" data-done="true"><span class="cidash-chip cc-info" title="Snapshots rendered for all 94 VIs in this revision"><a href="https://Michal-M-Kozak.github.io/Oauth2/vi-snapshots/index.html?sha=52ee1f80fb2d9cd6775e43292cb424ddae9a722e" style="color:inherit">94</a></span></td>
       <td style="text-align:center" class="cidash-cap-cell" data-cap="unit-tests" data-sha="52ee1f80fb2d9cd6775e43292cb424ddae9a722e" data-parent="40b06086aa5b433657fb89ecf5aa51418f5fe6d8" data-short="52ee1f8" data-ts="2026-10-01T09:47:55Z"><span class="cidash-chip cc-pass" title="No unit tests found; 0% failed."><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L1.22 9.28a.75.75 0 1 1 1.06-1.06L6 11.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg><a href="https://Michal-M-Kozak.github.io/Oauth2/report/index.html?type=unit-tests-report&sha=52ee1f80fb2d9cd6775e43292cb424ddae9a722e&short=52ee1f8&src=..%2Funit-tests%2F52ee1f80fb2d9cd6775e43292cb424ddae9a722e%2Findex.html&title=Unit%20Tests%20%C2%B7%2052ee1f8" style="color:inherit">0% failed</a></span></td>
       <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
-      <td style="text-align:center" class="cidash-active-cell" data-cap="builds" data-sha="52ee1f80fb2d9cd6775e43292cb424ddae9a722e" data-parent="40b06086aa5b433657fb89ecf5aa51418f5fe6d8" data-short="52ee1f8" data-active="true"><span class="run-badge" title="Running — click to view progress"><a href="https://github.com/Michal-M-Kozak/Oauth2/actions/runs/36842403091" style="color:#fff;text-decoration:none;display:inline-flex;align-items:center;gap:5px"><span class="run-spin"></span>build</a></span></td>
+      <td style="text-align:center" class="cidash-cap-cell" data-cap="builds" data-sha="52ee1f80fb2d9cd6775e43292cb424ddae9a722e" data-parent="40b06086aa5b433657fb89ecf5aa51418f5fe6d8" data-short="52ee1f8" data-ts="2026-10-01T09:40:54Z"><span class="cidash-chip cc-split" title="1 built, 0 failed of 1 build specification(s)"><a href="https://Michal-M-Kozak.github.io/Oauth2/report/index.html?type=builds-report&sha=52ee1f80fb2d9cd6775e43292cb424ddae9a722e&short=52ee1f8&src=..%2Fbuilds%2F52ee1f80fb2d9cd6775e43292cb424ddae9a722e%2Findex.html&title=Builds%20%C2%B7%2052ee1f8" style="color:inherit"><span class="cidash-vseg cc-pass" data-tip="Succeeded">1</span><span class="cidash-vseg-sep">/</span><span class="cidash-vseg cc-muted" data-tip="Failed">0</span></a></span></td>
       <td style="text-align:center" class="cidash-cap-cell" data-cap="sbom-generation" data-sha="52ee1f80fb2d9cd6775e43292cb424ddae9a722e" data-parent="40b06086aa5b433657fb89ecf5aa51418f5fe6d8" data-short="52ee1f8" data-ts="2026-10-01T09:39:16Z"><span class="cidash-chip cc-pass"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L1.22 9.28a.75.75 0 1 1 1.06-1.06L6 11.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg><a href="https://Michal-M-Kozak.github.io/Oauth2/report/index.html?type=sbom-report&sha=52ee1f80fb2d9cd6775e43292cb424ddae9a722e&short=52ee1f8&src=..%2Fsbom%2F52ee1f80fb2d9cd6775e43292cb424ddae9a722e%2Findex.html&title=SBOM%20%C2%B7%2052ee1f8" style="color:inherit">SBOM</a></span></td>
     </tr>
 
